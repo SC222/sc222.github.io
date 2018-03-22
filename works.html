@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="https://fonts.googleapis.com/css?family=Play:400,700&amp;subset=cyrillic" rel="stylesheet"> 
+<style>
+body {margin:0;
+background-color:#ECEFF1;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #37474F;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+	font-family: 'Play';
+	font-weight: 700;
+	font-size:125%
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	transition-property: background-color;
+    transition-duration: 0.25s;  
+}
+
+li a:hover:not(.active) {
+    background-color: #263238;
+}
+li a.active:hover {
+    background-color: #00897B;
+}
+.active {
+    background-color: #009688;
+}
+p.main{
+font-family: 'Play';
+font-weight:400
+}
+h1.colored{
+color:#009688;
+font-family: 'Play';
+font-weight:900;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a href="main.html">Home</a></li>
+  <li><a class="active" href="works.html">Works</a></li>
+  <li><a href="contacts.html">Contacts</a></li>
+</ul>
+
+<div style="padding:20px;margin-top:30px;background-color:#ECEFF1;">
+<h1 class="colored">Тестовый заголовок</h1>
+<p class="main">Тестовый текст</p>
+</div>
+
+</body>
+</html>
